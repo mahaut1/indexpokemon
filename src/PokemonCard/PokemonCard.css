@@ -1,0 +1,31 @@
+.pokemon-card {
+    width: 200px;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .pokemon-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .pokemon-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.pokemon-type-button {
+  text-transform: uppercase; 
+  border: none;
+  color: #FFF;
+  padding: 3px 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
